@@ -63,3 +63,22 @@ p {
   border-radius: 4px;
   border: 1px solid var(--branding-color);
 }
+.project-description {
+  padding: 100px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
